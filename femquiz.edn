@@ -1,7 +1,7 @@
-{:creator #{{:name "Jindřich Mynarz"
-             :url "https://mynarz.net/#jindrich"}
-            {:name "Irena Hůlová"
-             :url  "https://www.linkedin.com/in/irena-hulova-24912495"}}
+{:creators #{{:name "Jindřich Mynarz"
+              :url "https://mynarz.net/#jindrich"}
+             {:name "Irena Hůlová"
+              :url  "https://www.linkedin.com/in/irena-hulova-24912495"}}
  :questions #{{:type :yesno
                :text "Mají muži nižší hustotu kostí než ženy?"
                :correct? false}

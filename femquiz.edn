@@ -19,7 +19,7 @@
                          {:text "Stále to nepožaduje"}]}
               {:type :percent-range
                :text "Jaký je v současnosti v Česku rozdíl mezi průměrným platem mužů a průměrným platem žen?"
-               :percentage 16}
+               :percentage 17}
               {:type :multiple
                :text "Kdo získal cenu Genderman v roce 2023?"
                :choices [{:text "Michal Zuna a Daniel Bartoň" :correct? true}
@@ -120,9 +120,8 @@
                :text "Jsou ženy na antidepresivech 2,5-krát častěji než muži?"
                :correct? true}
               {:type :yesno
-               :text "O erektilní dysfunkci bylo napsáno 2-krát více vědeckých článků než o premenstruačním syndromu."
-               :correct? false
-               :note "Ve skutečnosti jich bylo napsáno 5-krát více."} ; TODO: Revidovat otázku
+               :text "O erektilní dysfunkci bylo napsáno 5-krát více vědeckých článků než o premenstruačním syndromu."
+               :correct? true}
               {:type :percent-range
                :text "Kolik procent žen trpí menstruačními bolestmi?"
                :percentage 90}
@@ -136,7 +135,7 @@
               {:type :multiple
                :text "Co bylo podnětem k ustanovení Mezinárodního dne žen?"
                :choices [{:text "Výročí demonstrace žen 'Chléb a mír' v Petrohradě"}
-                         {:text "Výročí protestu švadlen v New Yorku roku 1908" :correct? true} ; TODO: Ověřit
+                         {:text "Výročí protestu švadlen v New Yorku roku 1908" :correct? true}
                          {:text "Výročí korunovaci britské královny Anny"}
                          {:text "Datum bylo ustaveno Komunistickou stranou Sovětského svazu"}]}
               {:type :multiple
@@ -201,12 +200,6 @@
               {:type :percent-range
                :text "Podíl žen studujících computer science v Saúdské Arábii v roce 2014 byl:"
                :percentage 59}
-              {:type :multiple
-               :text "Jaký je v Česku rozsah výše výživného v procentech čisté mzdy rodiče?"
-               :choices [{:text "8 - 20 %" :correct? true}
-                         {:text "2 - 8 %"}
-                         {:text "12 - 36 %"}
-                         {:text "35 - 45 %"}]}
               {:type :yesno
                :text "Kapsy dámských džín jsou průměrně o 48 % kratší a o 6,5 % užší než kapsy mužských džín."
                :correct? true}
@@ -391,7 +384,7 @@
                          {:text "Pokud je láska, obdiv a respekt k ženám feminismus…"}
                          {:text "Pro ženy mám slabost."}]}
               {:type :multiple
-               :text "Která z těchto zemí má v současnosti (srpen 2024) prezidentku?"
+               :text "Která z těchto zemí má v současnosti (listopad 2024) prezidentku?"
                :choices [{:text "Švýcarsko" :correct? true}
                          {:text "Finsko"}
                          {:text "Nepál"}
@@ -419,7 +412,7 @@
               {:type :sort
                :text "Seřaďte státy vzestupně podle výše jejich kvót na procentní zastoupení žen v parlamentu."
                :items [{:text "Saúdská Arábie" :sort-value 20}
-                       {:text "Sierra Leone" :sort-value 30}
+                       {:text "Sierra Leone" :sort-value 33}
                        {:text "Indie" :sort-value 33}
                        {:text "Mexiko" :sort-value 50}]}
               {:type :multiple
@@ -496,11 +489,11 @@
                        {:text "Česká republika" :sort-value 25}
                        {:text "Rumunsko" :sort-value 27}]}
               {:type :sort
-               :text "Seřadte sestupně následující instituce v Česku dle procentního zastoupení žen (leden 2022):"
+               :text "Seřadte sestupně následující instituce v Česku dle procentního zastoupení žen (listopad 2024):"
                :items [{:text "Zastupitelstva měst a obcí" :sort-value 28}
                        {:text "Poslanecká sněmovna" :sort-value 25}
-                       {:text "Vláda" :sort-value 17}
-                       {:text "Senát" :sort-value 15}]}
+                       {:text "Senát" :sort-value 21}
+                       {:text "Vláda" :sort-value 6}]}
               {:type :yesno
                :text "Klitoris má dvakrát více nervových zakončení než penis?"
                :correct? true
@@ -609,7 +602,7 @@
                          {:text "Čádor"}]}
               {:type :percent-range
                :text "Kolik procent českých žen nemá rádo velikonoční šlehání?"
-               :percentage 79}
+               :percentage 79} ; https://simar.cz/cerstve-namleto/pomlazku-nema-rado-79-zen-%E2%80%93-pusobi-bolest,-modriny-a-ponizeni.html
               {:type :yesno
                :text "Pokud je zavražděna žena, vrahem je v 84 % její partner."
                :correct? false

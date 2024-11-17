@@ -91,7 +91,7 @@
                          {:text "Všehoschopný šikula"}
                          {:text "Rozpor v polyamorním vztahu"}]}
               {:type :multiple
-               :text "Do kolika týdnů od početí je v Česku interrupce na vyžádání legální?"
+               :text "Do kolika týdnů od početí je v Česku legální interrupce na vyžádání?"
                :choices [{:text "12 týdnů" :correct? true}
                          {:text "2 týdny"}
                          {:text "5 měsíců"}
